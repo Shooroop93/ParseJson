@@ -11,7 +11,7 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
-        final String url1 = "https://api.openweathermap.org/data/2.5/forecast?lat=59.931184&lon=30.3609&units=metric&lang=ru&appid=7adbd0c111a8cc73e197ecb703ca60b9";
+        final String url1 = "https://api.openweathermap.org/data/2.5/forecast?lat=59.931184&lon=30.3609&units=metric&lang=ru&appid=<<KEY>>";
         double average = 0;
 
         ParseJson.get(url1);
